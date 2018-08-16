@@ -26,14 +26,6 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
-  instance:
-    instance-id: order
-    # prefer-ip-address: true
-#    hostname: eurekaClientHost
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml #指定mapper地址
   configuration.map-underscore-to-camel-case: true #开启驼峰命名匹配规则
