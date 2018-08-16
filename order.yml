@@ -1,4 +1,4 @@
-
+env: dev
 spring:
   application:
     name: order #微服务名称
@@ -32,6 +32,7 @@ mybatis:
 logging:
   level:
     com.xiaofan: debug # 设置日志打印级别，用以打开sql的开关
+
 #PRODUCT:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
