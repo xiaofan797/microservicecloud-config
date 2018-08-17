@@ -29,11 +29,6 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml #指定mapper地址
   configuration.map-underscore-to-camel-case: true #开启驼峰命名匹配规则
-rabbitmq:
-  host: localhost
-  virtual-host: /virtual_hontek
-  username: xiaofan
-  password: hontek
 logging:
   level:
     com.xiaofan: debug # 设置日志打印级别，用以打开sql的开关
