@@ -2,6 +2,11 @@ env: dev3
 spring:
   application:
     name: order #微服务名称
+  rabbitmq:
+    host: localhost
+    virtual-host: /virtual_hontek
+    username: xiaofan
+    password: hontek
   datasource:
     #   数据源基本配置
     username: root
