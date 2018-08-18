@@ -41,3 +41,4 @@ mybatis:
 logging:
   level:
     com.xiaofan: debug # 设置日志打印级别，用以打开sql的开关
+env: dev
