@@ -6,8 +6,8 @@ spring:
     host: localhost
     virtual-host: /virtual_hontek
     username: xiaofan
-password: hontek
-  datasource:     # 数据源基本配置
+    password: hontek
+  datasource: # 数据源基本配置
     username: root
     password: beckham797
     driver-class-name: com.mysql.jdbc.Driver
