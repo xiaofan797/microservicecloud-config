@@ -2,6 +2,9 @@ env: dev4
 spring:
   application:
     name: order #微服务名称
+  redis:
+    host: localhost
+    port: 6379
   rabbitmq:
     host: localhost
     virtual-host: /virtual_hontek
