@@ -14,9 +14,13 @@ zuul:
       path: /myProduct/**
       serviceId: product
       #自定义敏感头
-      sensitiveHeaders :
+      #sensitiveHeaders :
 #    #简单写法
 #    product: /myProduct/**
+    # /myOrder/** -> /order/
+    order:
+      path: /myOrder/**
+      serviceId: order
   #排除指定路径
   ignored-patterns:
     - /**/product/listForOrder
