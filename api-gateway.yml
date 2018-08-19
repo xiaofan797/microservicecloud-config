@@ -1,6 +1,11 @@
 spring:
   application:
     name: api-gateway #服务名称
+  rabbitmq:
+    host: localhost
+    virtual-host: /virtual_hontek
+    username: xiaofan
+    password: hontek
 zuul:
   routes:
     #完整写法
