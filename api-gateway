@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: api-gateway #服务名称
+zuul:
+  routes:
+    #完整写法
+    # /myProduct/product/list -> /product/product/list
+    product:
+      path: /myProduct/**
+      serviceId: product
+      #自定义敏感头
+      sensitiveHeaders :
+#    #简单写法
+#    product: /myProduct/**
+  #排除指定路径
+  ignored-patterns:
+    - /**/product/listForOrder
+    - /**/product/decrStock
