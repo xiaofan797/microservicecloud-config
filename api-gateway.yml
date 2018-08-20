@@ -6,6 +6,9 @@ spring:
     virtual-host: /virtual_hontek
     username: xiaofan
     password: hontek
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
 zuul:
   routes:
     #完整写法
@@ -25,3 +28,4 @@ zuul:
   ignored-patterns:
     - /**/product/listForOrder
     - /**/product/decrStock
+
