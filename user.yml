@@ -31,4 +31,4 @@ mybatis:
   configuration.map-underscore-to-camel-case: true #开启驼峰命名匹配规则
 logging:
   level:
-com.xiaofan: debug # 设置日志打印级别，用以打开sql的开关
+    com.xiaofan: debug # 设置日志打印级别，用以打开sql的开关
